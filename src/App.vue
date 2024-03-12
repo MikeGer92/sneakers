@@ -1,4 +1,7 @@
-<template><h1>Hello</h1></template>
+<template>
+  <h1>Hello</h1>
+  <h3>Sneakers</h3>
+</template>
 
 <script setup></script>
 
