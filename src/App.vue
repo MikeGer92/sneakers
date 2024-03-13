@@ -1,6 +1,6 @@
 <template>
   <h1>Hello</h1>
-  <h3>Sneakers</h3>
+  <h3 class="text-3xl font-bold underline">Sneakers</h3>
   <MyHello />
 </template>
 
