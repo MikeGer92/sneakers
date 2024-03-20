@@ -1,13 +1,13 @@
 <script setup>
 import Card from './Card.vue'
-// const onClickAdded = () => {
-//   return true
-// }
+const onClickAdded = () => {
+  alert('Добавить')
+}
 </script>
 
 <template>
   <div class="grid grid-cols-4 gap-5">
-    <Card />
+    <Card :isFavorite="false" @click="onClickAdded" />
     <Card />
     <Card />
     <Card />

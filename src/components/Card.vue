@@ -21,7 +21,7 @@ defineProps({
         class="absolute top-8 left-8"
         @click="onClickFavorite"
       />
-      <img :src="imageUrl" alt="Sneaker" />
+      <img src="/sneakers/sneakers-1.jpg" alt="Sneaker" />
       <p class="mt-2">{{ title }}</p>
 
       <div class="flex justify-between">
