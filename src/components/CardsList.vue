@@ -10,8 +10,6 @@ const onClickAdded = () => {
     <Card :isFavorite="false" @click="onClickAdded" />
     <Card />
     <Card />
-    <Card />
-    <Card />
-    <Card />
+
   </div>
 </template>
